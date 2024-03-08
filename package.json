@@ -1,0 +1,19 @@
+{
+  "name": "3_cypress",
+  "version": "1.0.0",
+  "description": "automatyzacja w cypress",
+  "main": "index.js",
+  "scripts": {
+    "checkbox": "cypress run --spec cypress/e2e/4_checkbox_asercje.cy.js"
+  },
+  "keywords": [
+    "automatyzacja",
+    "cypress",
+    "test"
+  ],
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
